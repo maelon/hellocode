@@ -1,0 +1,133 @@
+{
+    "height":10,
+    "layers":[
+        {
+            "data":[2, 2, 2, 2, 2, 6, 2, 0, 2, 4, 7, 2, 2, 0, 2, 2, 4, 2, 6, 2, 2, 2, 4, 5, 2, 0, 2, 2, 5, 2, 7, 2, 2, 2, 2, 2, 6, 2, 2, 4, 2, 0, 2, 7, 2, 2, 4, 2, 6, 7, 2, 2, 2, 2, 2, 4, 2, 6, 2, 2, 2, 7, 2, 2, 2, 2, 0, 2, 7, 2, 4, 2, 2, 6, 2, 6, 2, 7, 4, 2, 2, 2, 0, 2, 2, 2, 7, 2, 6, 2, 2, 4, 2, 2, 4, 2, 2, 7, 2, 2],
+            "height":10,
+            "name":"\u5757\u5c42 1",
+            "opacity":1,
+            "type":"tilelayer",
+            "visible":true,
+            "width":10,
+            "x":0,
+            "y":0
+        }
+    ],
+    "orientation":"orthogonal",
+    "properties":
+    {
+
+    },
+    "renderorder":"right-down",
+    "tileheight":32,
+    "tilesets":[
+        {
+            "firstgid":1,
+            "image":"Lot_Meadow.png",
+            "imageheight":50,
+            "imagewidth":50,
+            "margin":0,
+            "name":"Lot_Meadow",
+            "properties":
+            {
+
+            },
+            "spacing":0,
+            "tileheight":32,
+            "tilewidth":32
+        }, 
+        {
+            "firstgid":2,
+            "image":"Lot_Dessert.png",
+            "imageheight":32,
+            "imagewidth":32,
+            "margin":0,
+            "name":"Lot_Dessert",
+            "properties":
+            {
+
+            },
+            "spacing":0,
+            "tileheight":32,
+            "tilewidth":32
+        }, 
+        {
+            "firstgid":3,
+            "image":"Lot_Future.png",
+            "imageheight":32,
+            "imagewidth":32,
+            "margin":0,
+            "name":"Lot_Future",
+            "properties":
+            {
+
+            },
+            "spacing":0,
+            "tileheight":32,
+            "tilewidth":32
+        }, 
+        {
+            "firstgid":4,
+            "image":"FOOD_Cake.png",
+            "imageheight":32,
+            "imagewidth":32,
+            "margin":0,
+            "name":"FOOD_Cake",
+            "properties":
+            {
+
+            },
+            "spacing":0,
+            "tileheight":32,
+            "tilewidth":32
+        }, 
+        {
+            "firstgid":5,
+            "image":"FOOD_Sausage.png",
+            "imageheight":32,
+            "imagewidth":32,
+            "margin":0,
+            "name":"FOOD_Sausage",
+            "properties":
+            {
+
+            },
+            "spacing":0,
+            "tileheight":32,
+            "tilewidth":32
+        }, 
+        {
+            "firstgid":6,
+            "image":"FOOD_Mushroom.png",
+            "imageheight":32,
+            "imagewidth":32,
+            "margin":0,
+            "name":"FOOD_Mushroom",
+            "properties":
+            {
+
+            },
+            "spacing":0,
+            "tileheight":32,
+            "tilewidth":32
+        },
+        {
+            "firstgid":7,
+            "image":"FOOD_Mushroom.png",
+            "imageheight":32,
+            "imagewidth":32,
+            "margin":0,
+            "name":"Q",
+            "properties":
+            {
+
+            },
+            "spacing":0,
+            "tileheight":32,
+            "tilewidth":32
+        }
+    ],
+    "tilewidth":32,
+    "version":1,
+    "width":10
+}

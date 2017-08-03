@@ -1,0 +1,85 @@
+html {
+    font-size: 16px;
+    background-color: #F5F5F5;
+    font-family: Helvetica, 'Hiragino Sans GB', 'Microsoft Yahei', '微软雅黑', Arial, sans-serif;
+    -webkit-overflow-scrolling: touch;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+.hide {
+    display: none;
+}
+.hidden {
+    visibility: hidden;
+}
+/* page */
+#page {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background-image: url(./assets/images/bg.png);
+	background-size: 100% 100%;
+	text-align: center;
+}
+
+#page .start-btn {
+	width: 100%;
+	position: absolute;
+	top: 50%;
+}
+
+#page .start-btn img {
+	width: 6.25rem;
+	height: auto;
+}
+
+#page .row {
+	position: absolute;
+	bottom: .8rem;
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+
+#page .row .two-col {
+	width: 50%;
+	height: auto;
+	text-align: center;
+	float: left;
+}
+
+#page .row .two-col > img {
+	/*width: 3.875rem;*/
+	/*height: auto;*/
+    width: auto;
+    height: 3.875rem;
+}
+#tipPage {
+    z-index: 999;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    background-color: #0a0b2c;
+    display: none;
+}
+#tipPage h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 36px;
+    position: absolute;
+    top: 50%;
+    margin-top: -24px;
+    left: 0;
+    width: 100%;
+}
+.container {
+    white-space: nowrap;
+    background-size: cover;
+    background-position: 50% 50%;
+}

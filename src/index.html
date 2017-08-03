@@ -1,0 +1,134 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=0">
+    </head>
+    <body>
+        <section class="container hide" id="tipPage"> 
+            <h2>请将手机竖起,以便更好的体验</h2>
+        </section>
+        <div class="game-container hide">
+            <div class="game-loading"></div>
+            <div class="game-info hide">
+                <span class="score-name">分数：</span>
+                <span class="score">0</span>
+                <span class="move-name">步数：</span>
+                <span class="move">0</span>
+                <span class="food-name">食物：</span>
+                <span class="food">0</span>
+            </div>
+            <div class="game-notice hide">
+                <div class="notice">
+                    <span class="time"><i class=""></i>6/28 10:10:10</span>
+                    目标3000分，挑战成功就有奖！
+                </div>
+                <div class="refresh"></div>
+            </div>
+            <canvas id="scene" class="hide"></canvas>
+            <div class="operate-container hide">
+                <div class="operate-able">
+                    <img class="move" src="./assets/images/operate/move.png">
+                    <img class="left" src="./assets/images/operate/left.png">
+                    <img class="right" src="./assets/images/operate/right.png">
+                </div>
+                <div class="operate-disable hide">
+                    <img class="move" src="./assets/images/operate/move_disable.png">
+                    <img class="left" src="./assets/images/operate/left_disable.png">
+                    <img class="right" src="./assets/images/operate/right_disable.png">
+                </div>
+            </div>
+        </div>
+        <div id="page">
+            <div class="start-btn">
+                <img class="start" id="start" src="assets/images/start.png" />
+            </div>
+            <div class="row">
+                <div class="two-col">
+                    <img class="rank" id="rank" src="assets/images/naoliwang.png" />
+                </div>
+                <div class="two-col">
+                    <img class="award-rules" id="rule" src="assets/images/award_rules.png" />
+                </div>
+            </div>
+            <div class="mask hide" id="mask">
+                <div class="rank hide" id="rank-container">
+                    <div class="banner">
+                        <img class="rank-banner" src="assets/images/rank_banner.png" />
+                        <a id="close"></a>
+                    </div>
+                    <div class="rank-content">
+                        <div class="rank-tab">
+                            <div class="two-col active" id="thisweek">本周脑力王</div>
+                            <div class="two-col" id="lastweek">上周脑力王</div>
+                        </div>
+                        <div class="rank-panel hide" id="rank-panel">
+                            <div class="ichallenge">
+                                <img src="assets/images/nochallenge.png" />
+                            </div>
+                            <div class="btn-area">
+                                <button class="btn" id="togo">我来挑战</button>
+                            </div>
+                        </div>
+                        <div class="rank-list hide" id="rank-list">
+                            <!--<div class="rank-own">
+                                我的最高分: 1021，排名: 201
+                            </div>-->
+                            <!--<div class="items-list">-->
+                                <!--<div class="items" id="items">
+                                    <div class="item">
+                                        <div class="left">4</div>
+                                        <div class="center">
+                                            <div class="icon"></div>
+                                            <div class="detail"></div>
+                                        </div>
+                                        <div class="right"></div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="left"><img src="assets/images/first.png" /></div>
+                                        <div class="center">
+                                            <div class="icon"></div>
+                                            <div class="detail">
+                                                <div class="name">阿廖沙的bar...</div>	
+                                                <div class="time">2016-6-24  10:28:39</div>
+                                            </div>
+                                        </div>
+                                        <div class="right">5080</div>
+                                    </div>
+                                </div>-->
+                                <!--</div>-->
+                        </div>
+                    </div>
+                </div>
+                <div id="share" class="hide">
+                    <img class="share" src="./assets/images/share.png">
+                </div>
+                <div id="award" class="hide">
+                    <img class="award" src="./assets/images/after_share.png">
+                    <a id="xclose"></a>
+                </div>
+                <div class="score hide" id="score">
+                    <a id="sclose"></a>
+                    <div id="content" class="content">
+                        <div class="row m-t" id="cbtn">
+                            <div class="left">
+                                <button id="playagain">再玩一次</button>
+                            </div>
+                            <div class="right">
+                                <button class="sm-font" id="toshare">邀请好友来PK</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="rules hide" id="rules">
+                    <a id="rclose"></a>
+                    <div class="irule-area">
+                        <div class="irule">
+                            <img src="./assets/images/rules.png" />
+                            <a href="http://wx-store.putao.com/home"></a>
+                        </div>	
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
